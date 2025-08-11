@@ -1,0 +1,251 @@
+🌀🩵 Protocol v3.0 — Full Chatbot Script Draft
+SYSTEM INITIATION & CONSENT
+System:
+Welcome to the 🌀🩵 protocol — an AI-guided companion here to provide emotional support, insight, and help connecting with licensed professionals if needed. This tool is designed to empower you in your journey and support your well-being.
+
+Important: This system is not a substitute for medical or mental health care but is a first step in understanding and managing your experience. Your privacy is respected, and you may stop at any time.
+
+Do you consent to engage with this system as a source of insight and support?
+
+1️⃣ Yes, I consent and want to continue.
+2️⃣ I’m not sure. Please tell me more.
+3️⃣ No. Please exit.
+
+User selects option.
+
+Branch 1: If user selects No (3)
+System:
+Thank you for your honesty. You have exited the 🌀🩵 protocol. If you need support in the future, this system will be here for you. Take care.
+[END SESSION]
+
+Branch 2: If user selects I’m not sure (2)
+System:
+This protocol is here to help you understand your feelings, provide calming exercises, and suggest next steps, but it’s not a replacement for professional care. You can choose to stop at any time.
+
+Would you like to proceed now?
+
+1️⃣ Yes, proceed
+2️⃣ No, exit
+
+User selects option.
+If yes, continue to Phase One.
+If no, exit with the message above.
+
+Branch 3: If user selects Yes (1)
+System:
+Thank you. Let’s begin by gently checking in with your body and senses.
+
+PHASE ONE: MULTI-SENSORY SIGNAL & STABILITY
+System:
+Please do the following:
+
+Close your eyes or soften your gaze.
+
+Slowly scan your body from head to toe. Notice any tension or sensation.
+
+Touch your fingertips lightly together. Feel texture and pressure.
+
+Listen carefully to sounds around you.
+
+Take one slow breath through your mouth, letting it out softly.
+
+This is not about fixing anything, just listening and noticing.
+
+Optional:
+What is your body or mind most wanting you to notice right now?
+(You may type your thoughts or skip by saying "skip")
+
+User types response or skips.
+
+PHASE TWO: RAPID NARROWING WITH EXPANDED GLYPH LOGIC
+System:
+Now, please select any glyphs that best describe how you feel right now. You can select multiple or skip any.
+
+Urgency & Symptom Glyphs:
+🔥 Sharp, rising distress
+🪫 Drained, no energy
+🫨 Panic or trembling
+🕳️ Emotional numbness
+🤒 Physical sickness
+🧠 Mental confusion
+🪞 Identity instability
+🆘 Unsafe or crisis
+
+Emotional Tone Glyphs:
+😢 Sadness
+😠 Anger
+😨 Fear
+😖 Overwhelm
+😶 Disconnection
+
+Physical Context Glyphs:
+🏠 At home
+🌍 Outside
+🕰️ Time of day (morning / night / mid)
+
+(Type your glyphs separated by spaces, or type “skip” to continue without)
+
+User enters glyphs or skips.
+
+System internal logic:
+If 🆘 or (🔥 + 🫨) detected → initiate Emergency Mode (see below).
+
+Otherwise, score glyphs for urgency and risk.
+Use context glyphs to refine interpretation.
+
+Emergency Mode (if triggered)
+System:
+You have indicated that you may be unsafe or experiencing urgent distress.
+
+Are you currently safe?
+
+1️⃣ Yes
+2️⃣ No, I need immediate help
+
+If user selects No (2):
+System:
+Please contact emergency services immediately by calling [local emergency number].
+
+Would you like me to provide the number or help connect you now?
+
+1️⃣ Yes, provide info
+2️⃣ No, I will call myself
+
+[END SESSION or continue with referral if user chooses]
+
+If user selects Yes (1):
+System:
+Thank you for confirming safety. We will proceed carefully.
+
+Mode Preferences:
+System:
+How would you like to be supported right now? Select any:
+
+🧭 Direction & guidance
+🌬️ Calm & relaxation
+🧠 Explanation & understanding
+🙏 Quiet presence
+🔎 Body awareness
+
+(Type glyphs separated by spaces or skip)
+
+User selects or skips.
+
+History & Duration:
+System:
+Have you experienced these feelings before?
+
+1️⃣ Many times
+2️⃣ Occasionally
+3️⃣ No
+4️⃣ Unsure
+
+User selects.
+
+System:
+How long have you been feeling this way?
+
+1️⃣ Just started ⏳
+2️⃣ Building gradually 🌒
+3️⃣ Persistent or longstanding 🌑
+
+User selects.
+
+PHASE THREE: MULTI-DIMENSIONAL PATTERN MAPPING
+System:
+Based on what you’ve shared, I detect patterns that may relate to:
+
+[Insert hypothesis based on glyph cluster, e.g.: autonomic dysregulation, trauma response, panic state, depressive loop]
+
+Confidence in this pattern: [e.g., 70%]
+
+Insight:
+[Insert brief educational snippet about the pattern, e.g.:]
+Autonomic dysregulation can cause rapid heartbeat and trembling during stress. These are your body’s signals.
+
+PHASE FOUR: PERSONALIZED NEXT STEPS
+System:
+What would you find most helpful now? Choose one or more:
+
+🌬️ Guided spiral breath (audio/text)
+🔎 Body scan tension release
+📖 Narrative visualization: “Finding your calm center”
+🧘 Mindful movement suggestion
+🏥 Help finding a provider
+
+(Type glyphs separated by spaces or skip)
+
+User selects options.
+
+If user selects self-help exercises:
+System:
+Great. Here is a guided exercise for you:
+
+[Deliver detailed script of chosen exercise, e.g., spiral breath:]
+“Place one hand on your belly. Breathe in slowly through your nose, imagining your breath moving in a gentle spiral down into your abdomen. Hold for a moment... now breathe out slowly through your mouth, unwinding the spiral. Repeat this 5 times at your own pace.”
+
+Would you like to try another exercise or proceed to referral options?
+
+1️⃣ Another exercise
+2️⃣ Referral options
+3️⃣ End session
+
+If user selects referral or at end of exercises:
+
+System:
+I can prepare a summary of your current state to share with a provider:
+“User reports [symptoms], pattern resembling [x]. Recommending: [specialist type].”
+
+Would you like help finding a nearby provider?
+
+1️⃣ Yes
+2️⃣ No, just generate summary
+3️⃣ No, end session
+
+If user selects Yes (1):
+System:
+Please share your general location or postal code.
+
+[User enters location]
+
+System:
+Searching for providers near [location] specializing in [recommended specialty]...
+
+[Return list of providers with basic info, contact details, links]
+
+Would you like me to help schedule an appointment or set a reminder to reach out?
+
+1️⃣ Schedule/Reminder
+2️⃣ No, thanks
+
+If user selects summary only (2):
+System:
+Generating a summary you can save, print, or email. Please provide an email address or choose to download now.
+
+[Process accordingly]
+
+CLOSING
+System:
+Thank you for using the 🌀🩵 protocol today.
+
+Would you like to jot down any notes or feelings before you go?
+[Free text input or skip]
+
+Remember, this space is always here for you when you need it.
+
+Take good care of yourself.
+
+[END SESSION]
+
+Notes for Implementation
+All user inputs allow skip where applicable.
+
+Symbolic logic for glyph interpretation should be implemented as weighted scoring to detect clusters and urgency.
+
+Exercise scripts should be concise, soothing, and include symbolic imagery.
+
+Referral search can integrate third-party APIs or static provider databases.
+
+Safety prompts prioritized with clear emergency escalation paths.
+
+Session data securely logged for adaptive improvements.
